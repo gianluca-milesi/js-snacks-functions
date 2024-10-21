@@ -2,7 +2,6 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-
 // Dichiara la funzione qui.
 
 function initialsArray(namesArray) {
@@ -13,14 +12,8 @@ function initialsArray(namesArray) {
     return initialsName;
 }
 
-
-
-
-
-
 // Invoca la funzione qui e stampa il risultato in console
 
 const initials = initialsArray(names);
 console.log(initials);
-
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
