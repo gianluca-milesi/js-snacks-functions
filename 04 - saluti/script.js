@@ -2,12 +2,17 @@
 
 const name = 'Mario';
 
-
 // Dichiara la funzione qui.
 
+// function hello(string) {
+//     return `Hello ${string}`;
+// }
+
+// ARROW FUNCTION
+const hello = (string) => `Hello ${string}`;
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+const nameHello = hello(name);
+console.log(nameHello)
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
